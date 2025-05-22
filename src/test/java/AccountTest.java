@@ -13,7 +13,6 @@ public class AccountTest {
     private UserService userService;
     @Test
     public void test(){
-        System.out.println(userService);
-        System.out.println(userService.getClass());
+        int num = userService.select();
     }
 }

@@ -24,7 +24,8 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public void select() {
+    public int select() {
         System.out.println("userservice select");
+        return 99;
     }
 }
