@@ -13,6 +13,7 @@ public class AccountTest {
     private UserService userService;
     @Test
     public void test(){
-        userService.delete();
+        System.out.println(userService);
+        System.out.println(userService.getClass());
     }
 }
